@@ -1,7 +1,7 @@
 <script>
   import { onMount } from 'svelte';
   import { api } from '$lib/api';
-  import { showAlert } from '$lib/utils/alerts';
+  import { showAlert } from '$lib/stores';
 
   let formData = {
     court_reference: '',
