@@ -13,13 +13,23 @@ export default defineConfig({
 		port: 5173,
 		proxy: {
 			'/api': {
-				target: 'http://localhost:8089',
+				target: process.env.VITE_API_URL || 'http://localhost:8089',
 				changeOrigin: true,
-				secure: false,
+				secure: true,
 				ws: true
 			}
 		}
 	},
 	publicDir: 'static',
-	assetsInclude: ['**/*.ttf']
+	assetsInclude: ['**/*.ttf'],
+	build: {
+		sourcemap: true,
+		rollupOptions: {
+			output: {
+				manualChunks: {
+					'chart.js': ['chart.js/auto']
+				}
+			}
+		}
+	}
 });
