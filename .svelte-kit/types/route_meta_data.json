@@ -1,0 +1,79 @@
+{
+	"/": [
+		"src/routes/+layout.js",
+		"src/routes/+layout.js"
+	],
+	"/cessions": [
+		"src/routes/+layout.js"
+	],
+	"/cessions/new": [
+		"src/routes/+layout.js"
+	],
+	"/cessions/[id]": [
+		"src/routes/cessions/[id]/+page.js",
+		"src/routes/+layout.js"
+	],
+	"/cessions/[id]/document": [
+		"src/routes/+layout.js"
+	],
+	"/clients": [
+		"src/routes/+layout.js"
+	],
+	"/clients/new": [
+		"src/routes/clients/new/+page.js",
+		"src/routes/+layout.js"
+	],
+	"/clients/[id]": [
+		"src/routes/clients/[id]/+page.js",
+		"src/routes/+layout.js"
+	],
+	"/clients/[id]/cessions": [
+		"src/routes/+layout.js"
+	],
+	"/clients/[id]/cessions/new": [
+		"src/routes/clients/[id]/cessions/new/+page.js",
+		"src/routes/+layout.js"
+	],
+	"/clients/[id]/cessions/[cessionId]": [
+		"src/routes/clients/[id]/cessions/[cessionId]/+page.js",
+		"src/routes/+layout.js"
+	],
+	"/clients/[id]/cessions/[cessionId]/edit": [
+		"src/routes/+layout.js"
+	],
+	"/clients/[id]/edit": [
+		"src/routes/clients/[id]/edit/+page.js",
+		"src/routes/+layout.js"
+	],
+	"/dashboard/expenses": [
+		"src/routes/+layout.js"
+	],
+	"/documents/salary-assignment": [
+		"src/routes/+layout.js"
+	],
+	"/finance": [
+		"src/routes/+layout.js"
+	],
+	"/inventory": [
+		"src/routes/+layout.js"
+	],
+	"/login": [
+		"src/routes/+layout.js"
+	],
+	"/payments": [
+		"src/routes/+layout.js",
+		"src/routes/+layout.js"
+	],
+	"/selling": [
+		"src/routes/+layout.js"
+	],
+	"/settings": [
+		"src/routes/+layout.js"
+	],
+	"/signup": [
+		"src/routes/+layout.js"
+	],
+	"/workplaces": [
+		"src/routes/+layout.js"
+	]
+}
