@@ -34,5 +34,8 @@
     "chart.js": "^4.2.1",
     "date-fns": "^2.29.3",
     "sveltekit-i18n": "^2.4.2"
-  }
+  },
+  "engines": {
+  "node": "20.x"
+}
 }
