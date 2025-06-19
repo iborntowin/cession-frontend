@@ -255,7 +255,7 @@ export const authApi = {
   login: async (email, password) => {
     try {
       console.log('Auth API - Attempting login with:', { email });
-      const response = await fetch(`${PUBLIC_BACKEND_URL}/v1/auth/signin`, {
+      const response = await fetch(`${PUBLIC_BACKEND_URL}/api/v1/auth/signin`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
