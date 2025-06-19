@@ -26,9 +26,7 @@ export default defineConfig({
 		sourcemap: true,
 		rollupOptions: {
 			output: {
-				manualChunks: {
-					'chart.js': ['chart.js/auto']
-				}
+				// Removed manualChunks for chart.js/auto to fix build error
 			}
 		}
 	}
